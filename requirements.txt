@@ -1,0 +1,28 @@
+# SphereVAD — requirements.txt
+# Python 3.12.12
+
+# Deep learning framework
+torch==2.7.0+cu126
+torchvision==0.22.0+cu126
+
+# LLM / MLLM inference
+transformers==5.3.0
+accelerate==1.13.0
+
+# Vision & video
+Pillow==12.1.1
+opencv-python==4.13.0
+# decord  (not detected)
+
+# Numerical / geometry
+numpy==2.4.3
+scipy==1.17.1
+scikit-learn==1.8.0
+
+# Visualisation
+matplotlib==3.10.8
+
+# Utilities
+tqdm==4.67.3
+einops==0.8.2
+# flash-attn  (not detected)
